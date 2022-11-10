@@ -1,0 +1,73 @@
+* {
+  margin: 5%;
+  padding: 0%;
+  font-family: 'Caveat', cursive;
+}
+
+.bodyContent {
+   display: flex;
+   background-color:white;  
+  
+}
+
+.container {
+  width: 800px;
+  height: 700px;
+  padding:30px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: px;
+  color: rgb(43, 37, 49);
+  text-decoration: underline;
+}
+
+img {
+  object-fit: cover;
+  height: 500px;
+  width:500px; 
+}
+
+a {
+  color: rgb(43, 37, 49); 
+  font-size: px;
+  font-weight: 550;
+} 
+
+a:hover {
+  color: brown;
+}
+  
+p {
+
+ color: rgb(43, 37, 49); 
+ font-size: 30px;    
+}
+
+.containerBtn{
+  width: 300px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  margin-left: 50px;
+  height: 40px;
+  width: 80px;
+  color: rgb(43, 37, 49);
+  margin-top: 22px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  background-color:goldenrod;
+  text-align: center;
+}
+
+button:hover {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
